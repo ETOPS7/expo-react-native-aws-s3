@@ -9,10 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.36.0",
+    "@aws-sdk/s3-request-presigner": "^3.36.0",
     "expo": "~49.0.7",
-    "expo-status-bar": "~1.6.0",
+    "expo-document-picker": "~11.5.4",
+    "expo-image-picker": "~14.3.2",
     "react": "18.2.0",
-    "react-native": "0.72.3"
+    "react-native": "^0.72.3",
+    "react-native-get-random-values": "^1.9.0",
+    "react-native-url-polyfill": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
